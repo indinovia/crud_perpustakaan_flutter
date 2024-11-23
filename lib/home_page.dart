@@ -88,16 +88,6 @@ class _BookListPageState extends State<BookListPage> {
                       IconButton(
                         icon: Icon(Icons.edit, color: Colors.blue),
                         onPressed: () {
-                          //arahkan ke halaman editbookpage untuk mengirim data buku yang akan diedit
-                          // Navigator.push(
-                          // setelah ditekan akan masuk dibagian edit buku
-                          // context,
-                          // MaterialPageRoute(
-                          //   builder: (context) => EditBookPage(book: book)
-                          // ),
-                          // ).then((_){
-                          //   fetchBooks(); //refresh data setelah kembali dari halaman editbookpage
-                          // });
                         },
                       ),
                       //Tombol Delete
